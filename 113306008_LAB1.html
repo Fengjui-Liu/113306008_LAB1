@@ -53,8 +53,8 @@
         <!-- Personal photo in the first column spanning three rows -->
         <tr>
             <td rowspan="3" style="text-align: center;">
-                <!-- Replace the URL below with your image link -->
-                <img src="https://github.com/Fengjui-Liu/113306008_LAB1/raw/main/my-photo.jpg" alt="personal photo">
+                <!-- Use the relative path to the image -->
+                <img src="myphoto.jpg" alt="personal photo">
             </td>
             <!-- Name and Gender section -->
             <td>Name: <input type="text" name="name"></td>
@@ -71,6 +71,7 @@
             <td>
                 County:
                 <select name="county">
+                    <option value="Hualien">Hualien</option>
                     <option value="Taipei">Taipei</option>
                     <option value="Tainan">Tainan</option>
                     <option value="Taichung">Taichung</option>
@@ -87,7 +88,7 @@
         <tr>
             <td colspan="2">
                 E-mail:
-                <input type="email" name="email" >
+                <input type="email" name="email">
             </td>
         </tr>
 
